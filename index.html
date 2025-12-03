@@ -12,52 +12,63 @@
             color:#333;
         }
         header {
-            background:#046c4e; /* emerald green */
-            color:white;
+            background:#006b46; /* emerald green */
             padding:20px;
             text-align:center;
+            color:white;
         }
-        h1 { margin:0; }
-        .tagline {
-            font-size:18px;
-            margin-top:6px;
-            opacity:0.9;
+        header h1 {
+            margin:0;
+            font-size:28px;
         }
-        .section {
-            padding:40px 20px;
-            max-width:900px;
-            margin:auto;
-            background:white;
-            margin-top:20px;
+        header p {
+            margin:5px 0 0;
+            font-size:16px;
+            font-style:italic;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
             border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
         }
-        .footer {
-            background:#024d36;
+        h2 {
+            border-left: 5px solid #006b46;
+            padding-left: 10px;
+        }
+        ul {
+            margin-top: 10px;
+        }
+        footer {
+            background:#006b46;
             color:white;
             text-align:center;
             padding:15px;
             margin-top:40px;
         }
+        a {
+            color:#006b46;
+            text-decoration:none;
+        }
+        a:hover { text-decoration:underline; }
     </style>
 </head>
-
 <body>
 
 <header>
     <h1>Razka Global Trade</h1>
-    <div class="tagline">Local Power, Global Search</div>
+    <p>Local Power, Global Search</p>
 </header>
 
-<div class="section">
+<div class="container">
     <h2>Tentang Kami</h2>
-    <p>
-        Razka Global Trade adalah perusahaan trading & eksportir produk turunan kelapa. 
-        Fokus kami adalah menyediakan produk berkualitas tinggi seperti briket arang kelapa, 
-        charcoal, dan derivative lainnya untuk pasar global.
-    </p>
+    <p>Razka Global Trade adalah perusahaan trading & ekspor produk turunan kelapa. Fokus kami adalah menyediakan produk berkualitas tinggi seperti briket arang kelapa, charcoal, dan derivative lainnya untuk pasar global.</p>
 </div>
 
-<div class="section">
+<div class="container">
     <h2>Produk Utama</h2>
     <ul>
         <li>Briket Arang Kelapa (Coconut Shell Briquette)</li>
@@ -66,15 +77,15 @@
     </ul>
 </div>
 
-<div class="section">
+<div class="container">
     <h2>Hubungi Kami</h2>
-    <p>Email: <b>razkaglobaltrade@gmail.com</b></p>
-    <p>WhatsApp: <b>+62 8xx-xxxx-xxxx</b></p>
+    <p>Email: <a href="mailto:razkaglobaltrade@gmail.com">razkaglobaltrade@gmail.com</a></p>
+    <p>WhatsApp: +62 8xx-xxxx-xxxx</p>
 </div>
 
-<div class="footer">
+<footer>
     © 2025 Razka Global Trade — All Rights Reserved
-</div>
+</footer>
 
 </body>
 </html>
