@@ -1,86 +1,132 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Razka Global Trade</title>
+
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background:#f4f4f4;
-            color:#333;
+            background: #f4f4f4;
+            color: #333;
         }
+
         header {
-            background:#006b46; /* emerald green */
-            padding:20px;
-            text-align:center;
-            color:white;
+            background: #006b4f;
+            padding: 25px;
+            text-align: center;
+            color: white;
         }
-        header h1 {
-            margin:0;
-            font-size:28px;
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
         }
-        header p {
-            margin:5px 0 0;
-            font-size:16px;
-            font-style:italic;
+
+        h2.section-title {
+            text-align: center;
+            margin-top: 40px;
+            color: #006b4f;
         }
-        .container {
-            width: 90%;
-            max-width: 900px;
-            margin: 30px auto;
+
+        .dashboard {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px auto;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+
+        .card {
+            width: 280px;
             background: white;
-            padding: 20px;
-            border-radius:10px;
-            box-shadow:0 0 10px rgba(0,0,0,0.1);
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
-        h2 {
-            border-left: 5px solid #006b46;
-            padding-left: 10px;
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
         }
-        ul {
+
+        .card p {
             margin-top: 10px;
+            text-align: left;
+            line-height: 1.4;
         }
+
         footer {
-            background:#006b46;
-            color:white;
-            text-align:center;
-            padding:15px;
-            margin-top:40px;
+            margin-top: 40px;
+            background: #006b4f;
+            padding: 20px;
+            text-align: center;
+            color: white;
         }
-        a {
-            color:#006b46;
-            text-decoration:none;
-        }
-        a:hover { text-decoration:underline; }
     </style>
 </head>
+
 <body>
 
 <header>
     <h1>Razka Global Trade</h1>
-    <p>Local Power, Global Search</p>
+    <p><i>Local Power, Global Search</i></p>
 </header>
 
-<div class="container">
-    <h2>Tentang Kami</h2>
-    <p>Razka Global Trade adalah perusahaan trading & ekspor produk turunan kelapa. Fokus kami adalah menyediakan produk berkualitas tinggi seperti briket arang kelapa, charcoal, dan derivative lainnya untuk pasar global.</p>
+<h2 class="section-title">Dashboard Produk Briket</h2>
+
+<div class="dashboard">
+
+    <!-- CARD 1 -->
+    <div class="card">
+        <img src="https://i.ibb.co/9H4f8q1/briket1.jpg" alt="Coconut Shell Briquette">
+        <h3>Premium Coconut Briquette</h3>
+        <p>
+            🔥 *Kualitas ekspor*<br>
+            • Ash: < 2.5%  
+            • Moisture: < 6%  
+            • Fixed Carbon: > 80%  
+            • Packaging: 1kg / 10kg / 20kg  
+        </p>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+        <img src="https://i.ibb.co/4pLfBNH/briket2.jpg" alt="Hexagonal Briquette">
+        <h3>Hexagonal Charcoal</h3>
+        <p>
+            🔥 Untuk BBQ & Middle East Market<br>
+            • Panjang: 20–25 cm  
+            • Durasi bakar: 2–3 jam  
+            • Smoke-free, Spark-free  
+        </p>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+        <img src="https://i.ibb.co/zXXh6tN/briket3.jpg" alt="Coconut Lump">
+        <h3>Coconut Shell Lump</h3>
+        <p>
+            🔥 Bahan baku briket<br>
+            • Size: Mix / Request  
+            • Packing: 25–30 kg  
+            • Very dry, high calorific value  
+        </p>
+    </div>
+
 </div>
 
-<div class="container">
-    <h2>Produk Utama</h2>
-    <ul>
-        <li>Briket Arang Kelapa (Coconut Shell Briquette)</li>
-        <li>Charcoal Coconut Shell</li>
-        <li>Coconut Derivative Product</li>
-    </ul>
-</div>
+<h2 class="section-title">Hubungi Kami</h2>
 
-<div class="container">
-    <h2>Hubungi Kami</h2>
-    <p>Email: <a href="mailto:razkaglobaltrade@gmail.com">razkaglobaltrade@gmail.com</a></p>
-    <p>WhatsApp: +62 8xx-xxxx-xxxx</p>
+<div style="text-align:center; margin-bottom:40px;">
+    <p>Email: <b>razkaglobaltrade@gmail.com</b></p>
+    <p>WhatsApp: <b>+62 8xx-xxxx-xxxx</b></p>
 </div>
 
 <footer>
